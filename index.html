@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Churrascaria - PR</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <!-- Logo/Menu -->
+    <div class="container">
+      <header id="home">
+        <a href="#home">
+          <img id="logo" src="./img/logo.png" alt="logo" />
+        </a>
+        <nav class="nav">
+          <a href="#carne" class="menu">Carne</a>
+          <a href="#bebida" class="menu">Bebida</a>
+          <a href="#footer" class="menu">Contato</a>
+        </nav>
+      </header>
+      <br />
+      <!-- Mensagem -->
+      <div class="apresentacao">
+        <h1>Seja Bem-vindo ao nósso site</h1>
+        <p>Uma nova opção para o seu almoço ou jantar</p>
+      </div>
+
+      <br />
+      <hr />
+      <main class="churrascaria">
+        <div id="card">
+          <!-- Reserva -->
+          <section>
+            <div class="formContainer">
+              <h2>
+                Venha conhecer a melhor e mais tradicional churrascaria do Paraná
+              </h2>
+              <p class="mb">Agende agora</p>
+              <form action="">
+                <input id="name" type="text" name="name" placeholder="Nome" />
+                <input
+                  type="name"
+                  type="text"
+                  name="name"
+                  placeholder="Acompanhante"
+                />
+                <input
+                  type="number"
+                  type="number"
+                  name="number"
+                  placeholder="Quantidade"
+                  min="2"
+                  max="10"
+                />
+                <input type="submit" value="RESERVAR" />
+              </form>
+            </div>
+          </section>
+
+          <hr />
+          <!-- Cardapio -->
+          <ul class="cardapio">
+            <br />
+            <!-- Comidas -->
+            <h3 id="carne">CARNE</h3>
+            <br />
+            <li>
+              <img src="./img/churrasco.jpg" alt="aperitivo" class="alimento" />
+              <h5>Aperitivo</h5>
+              <h6>R$ 25,00</h6>
+              <p>
+                Queijo coalho, Linguiça, Abobrinha com lascas de queijo,
+                Espetinho
+              </p>
+            </li>
+            <li>
+              <img
+                src="./img/contrafile.jpg"
+                alt="contrafile"
+                class="alimento"
+              />
+              <h5>Contra File</h5>
+              <h6>R$ 55,00</h6>
+            </li>
+            <li>
+              <img src="./img/costelas.jpg" alt="costela" class="alimento" />
+              <h5>Costela</h5>
+              <h6>R$ 75,00</h6>
+            </li>
+            <li>
+              <img src="./img/picanha.jpg" alt="picanha" class="alimento" />
+              <h5>Picanha</h5>
+              <h6>R$ 90,00</h6>
+            </li>
+            <br />
+            <hr />
+            <br />
+            <!-- Bebidas -->
+            <h3 id="bebida">BEBIDA</h3>
+            <br />
+            <li>
+              <img src="./img/vinho.jpg" alt="vinho" class="alimento" />
+              <h5>Vinho Seco e Suave</h5>
+              <h6>R$ 15,00</h6>
+            </li>
+            <li>
+              <img src="./img/cerveja.jpg" alt="cerveja" class="alimento" />
+              <h5>Cerveja</h5>
+              <h6>R$ 8,00</h6>
+            </li>
+            <li>
+              <img src="./img/coca.jpg" alt="refrigeirante" class="alimento" />
+              <h5>Refrigeirante</h5>
+              <h6>R$ 6,00</h6>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="contato">
+          <h4>(46) 9 99888-8888</h4>
+          <h4>Rua Dom Pedro II, N° 777, Centro, Curitiba - PR</h4>
+          <h5>churrasco@beef.com.pr</h5>
+        </div>
+        <div class="dev">
+          <h3>Desenvolvido por Matheus Vinicyus Strada</h3>
+          <h4>12/09/2021</h4>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

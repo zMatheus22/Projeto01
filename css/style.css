@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f8f8;
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 1.1em;
+}
+
+#logo {
+  width: 250px;
+}
+
+#logo:hover {
+  width: 300px;
+  transition: 1000ms;
+}
+
+.nav {
+  margin: 0.5em;
+}
+
+.nav a {
+  font-size: 1.2em;
+}
+
+#home img {
+  margin-top: 0.5em;
+  margin-bottom: 1.1em;
+}
+
+.menu {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #a1a2a5;
+  border-radius: 10px;
+}
+
+.menu:hover {
+  background-color: black;
+  color: white;
+  font-size: 1.15em;
+  transition: 900ms;
+}
+
+.apresentacao {
+  text-align: center;
+  margin-top: 0.7em;
+  margin-bottom: 2px;
+}
+.apresentacao h1 {
+  font-size: 2.3em;
+}
+.apresentacao p {
+  margin-top: 0.3em;
+  font-size: 1.4em;
+}
+
+section {
+  padding: 1em;
+  background-image: url("../img/churrasqueira.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.formContainer {
+  max-width: 15em;
+  background-color: #ffffffbb;
+  padding: 1em;
+  float: right;
+}
+
+.formContainer h2, p{
+  font-size: 0.8em;
+  
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  border: none;
+  margin-bottom: 0.5em;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: #ce4848;
+  font-weight: bold;
+}
+
+section {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: center;
+}
+
+.churrascaria {
+  text-align: center;
+}
+
+.churrascaria h5,
+h6 {
+  font-size: 1.3em;
+}
+
+.churrascaria p {
+  font-size: 0.85em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.churrascaria img:hover {
+  width: 22em;
+  transition: 1000ms;
+}
+
+.alimento {
+  width: 20em;
+  margin-top: 2em;
+}
+
+footer {
+  padding-top: 2.3em;
+  background: #33333303;
+  color: black;
+  text-align: center;
+}
+
+.contato h4 {
+  font-size: 1.3em;
+  margin-top: 0.4em;
+}
+
+.contato h5 {
+  margin-top: 0.45em;
+  font-size: 1.25em;
+}
+
+.dev {
+  font-size: 0.9em;
+  margin-top: 0.4em;
+  text-align: right;
+}
+
+.dev h3 {
+  float: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav a {
+    width: 10em;
+    margin: auto;
+    margin-bottom: 0.25em;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  body {
+    font-size: 1rem;
+  }
+  .nav a {
+    display: inline;
+  }
+
+  .container {
+    width: 40em;
+  }
+
+  li {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 20em;
+  }
+  .formContainer {
+    max-width: 10em;
+    float: none;
+    display: contents;    
+  }
+  .formContainer {
+    font-size: 1.6em;
+    color: white;
+  }
+  
+}
